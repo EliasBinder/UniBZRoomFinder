@@ -12,13 +12,15 @@ const styles = {
     root: {
         width: '100%',
         textAlign: 'center',
+        marginTop: '10px',
+        marginBottom: '10px'
     } as CSSProperties,
 
     text: {
         fontSize: '2.5rem',
-        fontWeight: 'bold',
+        fontWeight: '800',
         background: "linear-gradient(to right, #66B5FE, #B36BE2)",
-        "-webkit-background-clip": "text",
-        "-webkit-text-fill-color": "transparent"
+        WebkitBackgroundClip: "text",
+        WebkitTextFillColor: "transparent"
     } as CSSProperties
 }

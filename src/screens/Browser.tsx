@@ -5,6 +5,7 @@ export function Browser() {
     return (
         <div style={styles.root}>
             <Header/>
+            <div style={{height: '100%'}}>Test</div>
         </div>
     )
 }
@@ -12,6 +13,7 @@ export function Browser() {
 const styles = {
     root: {
         display: 'flex',
+        flex: 1,
         flexDirection: 'column',
         alignItems: 'flex-start',
         justifyContent: 'flex-start',
